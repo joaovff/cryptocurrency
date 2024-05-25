@@ -23,11 +23,14 @@ A simple web application that permits users to monitor cryptocurrency prices and
 
 
 ## Packages to be installed
-  npm i @types/react-router-dom
-  npm i axios 
-  npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
-  npm i @chakra-u i/icons
-  npm i react-icons  
+
+- npm i @types/react-router-dom
+- npm i axios 
+- npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+- npm i @chakra-u i/icons
+- npm i react-icons
+- npm i react-icons
+
 
 
 
