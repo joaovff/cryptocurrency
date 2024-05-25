@@ -8,6 +8,8 @@ const coinApi = axios.create({
 });
 
 
+
+
 export const fetchCryptos = async () => {
   try {
     const response = await coinApi.get("/coins/markets", {
