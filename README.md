@@ -9,6 +9,9 @@ A simple web application that permits users to monitor cryptocurrency prices and
 - Specific cryptocurrencies can be searched by name using the search bar.
 - Data refresh happens automatically every minute, keeping the information updated.
 - Error handling is put in place for situations where cryptocurrency data cannot be retrieved (normally for too many request in the API).
+- Users can add cryptocurrencies to favorite watchlist.
+- The user can access their favorite cryptocurrencies to see details about them such as Circulating Supply, ATH, ATL and more details about price changes in the last 24 hours.
+- Navbar is only for aesthetic, buttons aren't functional `except for the lighting/theme change button`.
 
 ## Technologies Used
 
@@ -16,21 +19,9 @@ A simple web application that permits users to monitor cryptocurrency prices and
 - Chakra UI.
 - CoinGecko API.
 - Axios.
-- React Router DOM.
 - React Icons.
 - HTML.
 - CSS.
-
-
- =============================================================================
-|                                                                             |  
-|    npm i @types/react-router-dom                                            |
-|    npm i axios                                                              |
-|    npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion      |
-|    npm i @chakra-u i/icons                                                  |
-|    npm i react-icons                                                        | 
-|                                                                             |
- =============================================================================
 
 
 ## Getting Started
@@ -43,18 +34,30 @@ Run this application on your machine by following these steps:
 - Run the server with  `npm start`.
 - Open the app in your browser by opening [http://localhost:3000].
 
-## Usage
+## Usage + Screenshots
 
-At its inception, the application unveils an inventory of cryptocurrencies with their corresponding price, market capitalizations, and 24-hour fluctuations.
-Sort the cryptocurrencies by the selected metric when you click on the column headers.
-Filter cryptocurrencies by name through the search bar.
-The information updates itself every minute.
-In case there is an issue obtaining cryptocurrency data, a countdown will be shown with the error message; this indicates when the page will refresh.
+- Upon its launch, the app displays an inventory of cryptocurrencies with their corresponding prices, market capitalizations, and 24-hour fluctuations.
 
-## Screenshots
+![alt text](home.png)
 
-![alt text](image.png)
+- The information updates itself every minute.
 
-![alt text](image-1.png)
+- Sort the cryptocurrencies by the selected metric when you click on the column headers.
 
-![alt text](image-2.png)
+![alt text](sort_applied.png)
+
+- Filter cryptocurrencies by name through the search bar.
+
+![alt text](search.png)
+
+- Click on the star in the first column of the table to send that cryptocurrency to your favorite watchlist, cryptocurrencies on your favorite watchlist have a filled star.
+
+![alt text](add_to_favorites.png)
+
+- The favorites list can be accessed by clicking the floating star button in the bottom right corner of the page, then your list will be opened.
+
+![alt text](favorite_list.png)
+
+- In case there is an issue obtaining cryptocurrency data, a countdown will be shown with the error message, this indicates when the page will refresh automatically.
+
+![alt text](error.png)

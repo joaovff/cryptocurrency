@@ -3,8 +3,28 @@
 * {
   font-family: Roboto;
   font-weight: 600;
+  margin: 0;
+  padding: 0;
 }
 
 .table-header {
   font-weight: 900;
+  min-width: 200px;
+  text-transform: capitalize;
+}
+.table-header-hash {
+  font-weight: 900;
+}
+
+.star-table {
+  text-align: right !important;
+}
+
+@media (max-width: 575px) {
+  .search-group {
+    width: 90% !important;
+  }
+  .table-header {
+    min-width: 250px;
+  }
 }

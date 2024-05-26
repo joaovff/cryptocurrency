@@ -7,9 +7,6 @@ const coinApi = axios.create({
   baseURL: BASE_URL,
 });
 
-
-
-
 export const fetchCryptos = async () => {
   try {
     const response = await coinApi.get("/coins/markets", {
