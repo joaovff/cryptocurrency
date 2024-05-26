@@ -23,12 +23,12 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose, favorites }) => {
       <DrawerOverlay>
         <DrawerContent>
           <DrawerCloseButton />
-          <DrawerHeader>Favorite Cryptocurrencies</DrawerHeader>
+          <DrawerHeader>Favorite Cryptocurrencies Watch List</DrawerHeader>
           <DrawerBody>
             <Stack spacing={4}>
               {favorites.length === 0 ? (
-                /* If no cryptocurrency added to the favorite, returns the following message */
-                <Text>No cryptocurrencies added to favorites.</Text>
+                /* If no cryptocurrency added to favorite, returns the following message */
+                <Text>No cryptocurrencies added to favorite watch list.</Text>
               ) : (
                 favorites.map((crypto) => (
                   <CryptoCard key={crypto.id} crypto={crypto} />
