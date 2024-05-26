@@ -24,6 +24,21 @@ A simple web application that permits users to monitor cryptocurrency prices and
 - CSS.
 
 
+<<<<<<< HEAD
+=======
+## Packages to be installed
+
+- npm i @types/react-router-dom
+- npm i axios 
+- npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+- npm i @chakra-u i/icons
+- npm i react-icons
+- npm i react-icons
+
+
+
+
+>>>>>>> 5b6c9a55cf56ee4e788ec2c1353a3d5e34dc60d7
 ## Getting Started
 
 Run this application on your machine by following these steps:
@@ -44,6 +59,7 @@ Run this application on your machine by following these steps:
 
 - Sort the cryptocurrencies by the selected metric when you click on the column headers.
 
+<<<<<<< HEAD
 ![alt text](sort_applied.png)
 
 - Filter cryptocurrencies by name through the search bar.
@@ -61,3 +77,6 @@ Run this application on your machine by following these steps:
 - In case there is an issue obtaining cryptocurrency data, a countdown will be shown with the error message, this indicates when the page will refresh automatically.
 
 ![alt text](error.png)
+=======
+![alt text](image-2.png)
+>>>>>>> 5b6c9a55cf56ee4e788ec2c1353a3d5e34dc60d7
