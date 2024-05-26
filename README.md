@@ -60,3 +60,7 @@ Run this application on your machine by following these steps:
 - In case there is an issue obtaining cryptocurrency data, a countdown will be shown with the error message, this indicates when the page will refresh automatically.
 
 ![alt text](error.png)
+
+## Demo
+
+The demo can be accessed through this link: `https://crytptocurrency-tracker.netlify.app`
