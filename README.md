@@ -1,4 +1,4 @@
-# CryptoTracker App - TechWave Entertainment Technical Assessment
+# CryptoTracker App
 
 A simple web application that permits users to monitor cryptocurrency prices and market details live.
 
